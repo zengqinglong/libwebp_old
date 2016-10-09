@@ -26,3 +26,5 @@ examples/webpmux
 *.pdb
 /iosbuild
 /WebP.framework
+/obj
+
