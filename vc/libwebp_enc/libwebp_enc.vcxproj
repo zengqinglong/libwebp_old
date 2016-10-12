@@ -19,87 +19,35 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\dec\alpha.c" />
-    <ClCompile Include="..\src\dec\buffer.c" />
-    <ClCompile Include="..\src\dec\frame.c" />
-    <ClCompile Include="..\src\dec\idec.c" />
-    <ClCompile Include="..\src\dec\io.c" />
-    <ClCompile Include="..\src\dec\layer.c" />
-    <ClCompile Include="..\src\dec\quant.c" />
-    <ClCompile Include="..\src\dec\tree.c" />
-    <ClCompile Include="..\src\dec\vp8.c" />
-    <ClCompile Include="..\src\dec\vp8l.c" />
-    <ClCompile Include="..\src\dec\webp.c" />
-    <ClCompile Include="..\src\dsp\cpu.c" />
-    <ClCompile Include="..\src\dsp\dec.c" />
-    <ClCompile Include="..\src\dsp\dec_neon.c" />
-    <ClCompile Include="..\src\dsp\dec_sse2.c" />
-    <ClCompile Include="..\src\dsp\enc.c" />
-    <ClCompile Include="..\src\dsp\enc_neon.c" />
-    <ClCompile Include="..\src\dsp\enc_sse2.c" />
-    <ClCompile Include="..\src\dsp\lossless.c" />
-    <ClCompile Include="..\src\dsp\upsampling.c" />
-    <ClCompile Include="..\src\dsp\upsampling_neon.c" />
-    <ClCompile Include="..\src\dsp\upsampling_sse2.c" />
-    <ClCompile Include="..\src\dsp\yuv.c" />
-    <ClCompile Include="..\src\enc\alpha.c" />
-    <ClCompile Include="..\src\enc\analysis.c" />
-    <ClCompile Include="..\src\enc\backward_references.c" />
-    <ClCompile Include="..\src\enc\config.c" />
-    <ClCompile Include="..\src\enc\cost.c" />
-    <ClCompile Include="..\src\enc\filter.c" />
-    <ClCompile Include="..\src\enc\frame.c" />
-    <ClCompile Include="..\src\enc\histogram.c" />
-    <ClCompile Include="..\src\enc\iterator.c" />
-    <ClCompile Include="..\src\enc\layer.c" />
-    <ClCompile Include="..\src\enc\picture.c" />
-    <ClCompile Include="..\src\enc\quant.c" />
-    <ClCompile Include="..\src\enc\syntax.c" />
-    <ClCompile Include="..\src\enc\token.c" />
-    <ClCompile Include="..\src\enc\tree.c" />
-    <ClCompile Include="..\src\enc\vp8l.c" />
-    <ClCompile Include="..\src\enc\webpenc.c" />
-    <ClCompile Include="..\src\utils\bit_reader.c" />
-    <ClCompile Include="..\src\utils\bit_writer.c" />
-    <ClCompile Include="..\src\utils\color_cache.c" />
-    <ClCompile Include="..\src\utils\filters.c" />
-    <ClCompile Include="..\src\utils\huffman.c" />
-    <ClCompile Include="..\src\utils\huffman_encode.c" />
-    <ClCompile Include="..\src\utils\quant_levels.c" />
-    <ClCompile Include="..\src\utils\quant_levels_dec.c" />
-    <ClCompile Include="..\src\utils\rescaler.c" />
-    <ClCompile Include="..\src\utils\thread.c" />
-    <ClCompile Include="..\src\utils\utils.c" />
+    <ClCompile Include="..\..\src\enc\alpha.c" />
+    <ClCompile Include="..\..\src\enc\analysis.c" />
+    <ClCompile Include="..\..\src\enc\backward_references.c" />
+    <ClCompile Include="..\..\src\enc\config.c" />
+    <ClCompile Include="..\..\src\enc\cost.c" />
+    <ClCompile Include="..\..\src\enc\filter.c" />
+    <ClCompile Include="..\..\src\enc\frame.c" />
+    <ClCompile Include="..\..\src\enc\histogram.c" />
+    <ClCompile Include="..\..\src\enc\iterator.c" />
+    <ClCompile Include="..\..\src\enc\layer.c" />
+    <ClCompile Include="..\..\src\enc\picture.c" />
+    <ClCompile Include="..\..\src\enc\quant.c" />
+    <ClCompile Include="..\..\src\enc\syntax.c" />
+    <ClCompile Include="..\..\src\enc\token.c" />
+    <ClCompile Include="..\..\src\enc\tree.c" />
+    <ClCompile Include="..\..\src\enc\vp8l.c" />
+    <ClCompile Include="..\..\src\enc\webpenc.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\dec\decode_vp8.h" />
-    <ClInclude Include="..\src\dec\vp8i.h" />
-    <ClInclude Include="..\src\dec\vp8li.h" />
-    <ClInclude Include="..\src\dec\webpi.h" />
-    <ClInclude Include="..\src\dsp\dsp.h" />
-    <ClInclude Include="..\src\dsp\lossless.h" />
-    <ClInclude Include="..\src\dsp\yuv.h" />
-    <ClInclude Include="..\src\enc\backward_references.h" />
-    <ClInclude Include="..\src\enc\cost.h" />
-    <ClInclude Include="..\src\enc\histogram.h" />
-    <ClInclude Include="..\src\enc\vp8enci.h" />
-    <ClInclude Include="..\src\enc\vp8li.h" />
-    <ClInclude Include="..\src\utils\bit_reader.h" />
-    <ClInclude Include="..\src\utils\bit_writer.h" />
-    <ClInclude Include="..\src\utils\color_cache.h" />
-    <ClInclude Include="..\src\utils\filters.h" />
-    <ClInclude Include="..\src\utils\huffman.h" />
-    <ClInclude Include="..\src\utils\huffman_encode.h" />
-    <ClInclude Include="..\src\utils\quant_levels.h" />
-    <ClInclude Include="..\src\utils\quant_levels_dec.h" />
-    <ClInclude Include="..\src\utils\rescaler.h" />
-    <ClInclude Include="..\src\utils\thread.h" />
-    <ClInclude Include="..\src\utils\utils.h" />
+    <ClInclude Include="..\..\src\enc\backward_references.h" />
+    <ClInclude Include="..\..\src\enc\cost.h" />
+    <ClInclude Include="..\..\src\enc\histogram.h" />
+    <ClInclude Include="..\..\src\enc\vp8enci.h" />
+    <ClInclude Include="..\..\src\enc\vp8li.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{80BB8C20-200F-4BCF-9EF1-623E15508D36}</ProjectGuid>
+    <ProjectGuid>{07C4E55E-F037-484D-BAE5-7EB256AC423B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>libwebp</RootNamespace>
+    <RootNamespace>libwebp_enc</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -120,7 +68,7 @@
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -158,7 +106,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -171,7 +118,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -186,7 +132,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
@@ -203,7 +148,6 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>

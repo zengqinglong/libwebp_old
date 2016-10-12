@@ -42,6 +42,13 @@ void* WebPSafeCalloc(uint64_t nmemb, size_t size) {
   return calloc((size_t)nmemb, size);
 }
 
+void WebPFree(void* ptr)
+{
+	if (ptr)
+		free(ptr);
+}
+
+
 //------------------------------------------------------------------------------
 
 #if defined(__cplusplus) || defined(c_plusplus)

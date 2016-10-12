@@ -40,6 +40,8 @@ void* WebPSafeMalloc(uint64_t nmemb, size_t size);
 // in order to favor the "calloc(num_foo, sizeof(foo))" pattern.
 void* WebPSafeCalloc(uint64_t nmemb, size_t size);
 
+void WebPFree(void* ptr);
+
 //------------------------------------------------------------------------------
 // Reading/writing data.
 

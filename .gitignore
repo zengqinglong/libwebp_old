@@ -27,4 +27,5 @@ examples/webpmux
 /iosbuild
 /WebP.framework
 /obj
-
+/Debug
+/.vs
